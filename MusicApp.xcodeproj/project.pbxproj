@@ -12,6 +12,7 @@
 		0E4C71AD1E351AA7008B808D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4C71AC1E351AA7008B808D /* Assets.xcassets */; };
 		0E4C71BB1E351AA7008B808D /* MusicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4C71BA1E351AA7008B808D /* MusicAppTests.swift */; };
 		0E4C71C61E351AA7008B808D /* MusicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4C71C51E351AA7008B808D /* MusicAppUITests.swift */; };
+		0EFBDA771E3A27FF008681D4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFBDA761E3A27FF008681D4 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		0E4C71C11E351AA7008B808D /* MusicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4C71C51E351AA7008B808D /* MusicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppUITests.swift; sourceTree = "<group>"; };
 		0E4C71C71E351AA7008B808D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EFBDA761E3A27FF008681D4 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				0E4C71A51E351AA7008B808D /* AppDelegate.swift */,
 				0E4C71A71E351AA7008B808D /* ViewController.swift */,
+				0EFBDA761E3A27FF008681D4 /* MainView.swift */,
 				0E4C71AC1E351AA7008B808D /* Assets.xcassets */,
 				0E4C71B11E351AA7008B808D /* Info.plist */,
 			);
@@ -187,6 +190,7 @@
 				TargetAttributes = {
 					0E4C71A11E351AA7008B808D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 469862744M;
 						ProvisioningStyle = Automatic;
 					};
 					0E4C71B51E351AA7008B808D = {
@@ -252,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E4C71A81E351AA7008B808D /* ViewController.swift in Sources */,
+				0EFBDA771E3A27FF008681D4 /* MainView.swift in Sources */,
 				0E4C71A61E351AA7008B808D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 469862744M;
 				INFOPLIST_FILE = MusicApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MusicApp.MusicApp;
@@ -397,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 469862744M;
 				INFOPLIST_FILE = MusicApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MusicApp.MusicApp;
@@ -478,6 +485,7 @@
 				0E4C71CC1E351AA7008B808D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E4C71CD1E351AA8008B808D /* Build configuration list for PBXNativeTarget "MusicAppTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +494,7 @@
 				0E4C71CF1E351AA8008B808D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E4C71D01E351AA8008B808D /* Build configuration list for PBXNativeTarget "MusicAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +503,7 @@
 				0E4C71D21E351AA8008B808D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
